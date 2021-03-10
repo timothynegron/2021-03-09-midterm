@@ -58,9 +58,6 @@ function firstPunctuationIndex (sentence) {
 }
 
 function getPlace (highScores, score) {
-    const ndPlace = 'nd place';
-    const rdPlace = 'rd place';
-    const thPlace = 'th place';
     let playerPlace = highScores.length;
 
     for(let i = highScores.length - 1; i >=0; i--){
